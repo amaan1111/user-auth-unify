@@ -1,7 +1,18 @@
-.App {
+.button_signin {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  transform: translate(0, -50%);
+}
+h1{
+  color: rgb(181, 216, 168);
   text-align: center;
 }
-
+.button_signout{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

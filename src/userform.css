@@ -1,0 +1,42 @@
+.s_bar{
+    width: 300px;  
+}
+.a_bar{
+    height:20px;
+}
+.g_bar{
+    width: 150px;
+    height:25px;
+}
+.btn_submit{
+    cursor: pointer;
+    border: none;
+ color: #090909;
+ padding: 0.7em 1.7em;
+ font-size: 18px;
+ border-radius: 0.5em;
+ background: #e8e8e8;
+ border: 1px solid #e8e8e8;
+ transition: all .3s;
+ box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+.btn_submit:active {
+ color: #666;
+ box-shadow: inset 4px 4px 12px #c5c5c5,
+             inset -4px -4px 12px #ffffff;
+}
+form{
+    margin-top:60px;
+    margin-left: 60px;
+}
+.form{
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    transform: translate(0, -50%);
+    background-color:white;
+    width: 450px;
+    height:500px;
+}
